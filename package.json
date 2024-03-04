@@ -1,13 +1,14 @@
 {
-  "name": "ecommerce-v1",
+  "name": "ShoppingCart",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon ./app.js"
+    "start": "node ./app.js",
+    "build": "npm install"
   },
-  "author": "samarth vohra",
+  "author": "Hemant",
   "license": "ISC",
   "dependencies": {
     "connect-flash": "^0.1.1",
